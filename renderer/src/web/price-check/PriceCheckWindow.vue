@@ -116,7 +116,9 @@ export default defineComponent({
         showCursor: true,
         requestPricePrediction: false,
         merchantOnly: true,
-        defaultCurrency: null
+        defaultCurrency: null,
+        rememberCurrency: false,
+        ultimatumRewardFee: 0.75
       }
     }
   } satisfies WidgetSpec,

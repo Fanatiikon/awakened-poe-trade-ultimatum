@@ -122,6 +122,7 @@ export interface StatFilter {
   text: string
   tag: FilterTag
   oils?: string[]
+  ultimatum?: { option: string }
   mercenary?: { icon?: string, tier?: number, maxTier?: boolean }
   reminderText?: string
   sources: StatCalculated['sources']
@@ -177,7 +178,11 @@ const _INTERNAL_TRADE_IDS = [
   'item.heist_target_priceless',
   'item.heist_wings_revealed',
   'item.heist_wings_total',
-  'item.chart_sulphur'
+  'item.chart_sulphur',
+  'ultimatum.challenge',
+  'ultimatum.reward',
+  'ultimatum.input',
+  'ultimatum.output'
 ] as const
 
 export type InternalTradeId = typeof _INTERNAL_TRADE_IDS[number]
