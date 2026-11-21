@@ -1,4 +1,5 @@
 import { ParsedItem, ItemRarity, ItemCategory, UltimatumRewardType } from '@/parser'
+import { CLIENT_STRINGS } from '@/assets/data'
 import { ModifierType, ModifierMechanic, StatCalculated, statSourcesTotal, translateStatWithRoll } from '@/parser/modifiers'
 import { JEWELLERY } from '@/parser/meta'
 import { getPropQuality, QUALITY_CHANGING_ENCHANT } from '@/parser/calc-q20'

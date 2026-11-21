@@ -1387,6 +1387,7 @@ function parseInscribedUltimatumMods (section: string[], item: ParsedItem) {
   }
 
   return 'SECTION_SKIPPED'
+}
 
 /**
  * @deprecated
